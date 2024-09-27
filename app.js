@@ -1,15 +1,14 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const contenidoRoutes = require('./routes/contenidoRoutes');
-const db = require('./conexion/database');
+
+const db = require("./conexion/database");
 
 // Middlewares
 app.use(express.json());
-app.use('/contenido', contenidoRoutes);
+app.use("/contenido", require("./routes/contenidoRoutes"));
 
 // Server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`http://localhost:${PORT}`);
 });
-    

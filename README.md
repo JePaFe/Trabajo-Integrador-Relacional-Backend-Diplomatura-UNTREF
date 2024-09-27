@@ -1,11 +1,11 @@
-# Proyecto Integrador: CRUD con Node.js y MySQL
+# Proyecto Integrador: CRUD con Node.js y Sequelize con MySQL
 
 ## Descripción del Proyecto
 
-En este proyecto, desarrollarás una plataforma de streaming usando Node.js y MySQL. La aplicación permitirá realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos relacional, utilizando el archivo trailerflix.json como referencia para diseñar el modelo de datos.
+En este proyecto, desarrollarás una plataforma de streaming usando Node.js y Sequelize con MySQL. La aplicación permitirá realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos relacional, utilizando el archivo trailerflix.json como referencia para diseñar el modelo de datos.
 
 ## Entrega
-Esta entrega se enfocará en diseñar y crear la base de datos para una plataforma de streaming, usando MySQL y Node.js, junto con su respectiva documentación.
+Esta entrega se enfocará en diseñar y crear la base de datos para una plataforma de streaming, usando Sequelize con MySQL y Node.js, junto con su respectiva documentación.
 
 Aprovecha lo visto en las clases para comenzar a diseñar las tablas y relaciones necesarias, las cuales deberán estar basadas en las propiedades del archivo trailerflix.json.
 
@@ -26,7 +26,7 @@ El diseño debe ser bocetado primero en papel y luego implementado en la platafo
 ## Pasos a Seguir
 1. **Diseñar el modelo de datos** basado en trailerflix.json.
 2. **Implementar las tablas** en DB Designer, asegurando que haya relaciones adecuadas entre ellas.
-3. **Generar el archivo SQL** para crear las tablas en MySQL.
+3. **Generar los modelos con Sequelize** para crear las tablas en MySQL.
 4. **Migrar los datos** del archivo JSON a MySQL utilizando los insert correspondientes.
 
 ## Funcionalidades del CRUD
@@ -65,10 +65,10 @@ Utiliza una **I.A.** como sugerimos en clase para optimizar la inserción de los
 
 ## Fechas Importantes
 
-- **Avance del Proyecto**: 10 de octubre de 2024
+- **Avance del Proyecto**: 8 de octubre de 2024
   - Tener diseñadas las tablas en DB Designer, con el archivo SQL generado y los primeros endpoints funcionando.
 
-- **Presentación Final**: 24 de octubre de 2024
+- **Presentación Final**: 10 de octubre de 2024
   - Proyecto completo con CRUD y toda la documentación.
 
 ## Estructura del Repositorio
@@ -98,31 +98,6 @@ Utiliza una **I.A.** como sugerimos en clase para optimizar la inserción de los
 - **/models/**: Modelos de datos para las tablas en MySQL.
 - **/routes/**: Definición de las rutas y endpoints del CRUD.
 
-## Instrucciones de Entrega
-
-1. **Fork** el repositorio desde [aquí](https://github.com/FabioDrizZt/Trabajo-Integrador-Relacional-Backend-Diplomatura-UNTREF/fork).
-2. **Clona** tu fork en tu máquina local.
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio-fork.git
-   ```
-3. Realiza los cambios y sube tu código a tu fork.
-4. **Sube** los cambios a tu fork.
-   ```bash
-   git add .
-   git commit -m "Descripción de los cambios"
-   git push origin main
-   ```
-
-5. Agrega a los siguientes usuarios como colaboradores en tu repositorio:
-   - [FabioDrizZt](https://github.com/FabioDrizZt)
-   - [JuanNebbia](https://github.com/JuanNebbia)
-   - [NKrein](https://github.com/NKrein)
-   - [mathiasbarbosa](https://github.com/mathiasbarbosa)
-
 ## Conclusión
 
-Este proyecto te permitirá aplicar conceptos clave de desarrollo backend, diseño de bases de datos y documentación. ¡Adelanta los pasos y recuerda mantener tu código limpio y bien documentado!
-
----
-
-Recuerda mantener tu código limpio, documentado y seguir las buenas prácticas de desarrollo. ¡Nos vemos en clase para revisar tu progreso el 10 de octubre de 2024!
+Recuerda mantener tu código limpio, documentado y seguir las buenas prácticas de desarrollo. ¡Nos vemos en clase para revisar tu progreso el 8 de octubre de 2024!
