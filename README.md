@@ -65,10 +65,10 @@ Utiliza una **I.A.** como sugerimos en clase para optimizar la inserción de los
 
 ## Fechas Importantes
 
-- **Avance del Proyecto**: 8 de octubre de 2024
+- **Avance del Proyecto**: 10 de octubre de 2024
   - Tener diseñadas las tablas en DB Designer, con el archivo SQL generado y los primeros endpoints funcionando.
 
-- **Presentación Final**: 10 de octubre de 2024
+- **Presentación Final**: 15 de octubre de 2024
   - Proyecto completo con CRUD y toda la documentación.
 
 ## Estructura del Repositorio
@@ -100,4 +100,4 @@ Utiliza una **I.A.** como sugerimos en clase para optimizar la inserción de los
 
 ## Conclusión
 
-Recuerda mantener tu código limpio, documentado y seguir las buenas prácticas de desarrollo. ¡Nos vemos en clase para revisar tu progreso el 8 de octubre de 2024!
+Recuerda mantener tu código limpio, documentado y seguir las buenas prácticas de desarrollo. ¡Nos vemos en clase para revisar tu progreso el 10 de octubre de 2024!
